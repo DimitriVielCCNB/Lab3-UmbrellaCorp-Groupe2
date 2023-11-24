@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images\logo.jpg" type="image/x-icon">
+    <title>computer-products</title>
+
+    <style>
+  
+        .product-details{
+            color: rgb(21, 20, 20);
+            font-size: 10px;
+            font-weight: bold;
+            padding: 0;
+            margin-left: 50px;
+            }
+        .container1{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            background: rgb(233, 232, 230);
+            border: 2px solid rgb(103, 103, 102);
+            border-radius: 10px;
+            box-shadow: 5px;
+        }
+        @media screen and (max-width:700px){
+            .contact{
+                width: 100%;
+            }
+        }
+        img{
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        </style>   
+
+</head>
+
+<body>
+    <header class="header-container">
+
+        <div class="logo">
+            <a href="home.html">
+            <img src="images\logo.jpg" alt="LOGO UMBRELLA">
+            </a>
+        </div>
+
+        <div class="search-container">
+            <form action="/search" method="get">
+            <input type="text" placeholder="Search for a product here" name="search">
+            <button type="submit"><i class="fa fa-search"> Search </i></button>
+            </form>
+          
+            </div>
+
+        <nav>
+            <ul>
+                <!--<li><a href="home.html">HOME</a></li>-->
+                <li>
+                    <a>CONSUMER</a>
+                    <ul class="sub-categories">
+                        <li><a href="cosmetic-products.html">Cosmetic product</a></li>
+                        <li><a href="computer-products.html">Computer product</a></li>
+                        <li><a href="chemicals.html">Chemicals</a></li>
+                        <li><a href="health-foods.html">Health foods</a></li>
+                        <li><a href="medical-equipment.html">Medical equipment</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a>PARAMILITARY</a>
+                    <ul class="sub-categories">
+                        <li><a href="biological-weapons.html">Biological weapons</a></li>
+                        <li><a href="fire-arms.html">Fire arms</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>       
+    <main>
+       
+        <div class="container1">
+            <div class="product">
+                <img src="images/img1.jpg" alt="umbrella" width="300" height="200">
+                 <div class="product-details">
+                      <h2>Product 1:World Domination </h2>
+                      <p> price: $1 </p>
+                      <p>DEScription: contact us to discuss the price .</p>
+                 </div>
+            </div>
+           <div class="product">
+                <img src="images/img2.jpg" alt="umbrell" width="300" height="200">
+                 <div class="product-details">
+                      <h2>Product 2: voltage 55 </h2>
+                       <p> price: $1</p>
+                        <p>Description: believe in walls</p>
+                 </div>
+            </div>
+            <div class="product">
+                <img src="images/img3.jpg" alt="umbrell" width="300" height="200">
+                <div class="product-details">
+                    <h2>Product 3: Secret Agents</h2>
+                    <p> price: $1 </p>
+                    <p>Description: believe in walls</p> 
+                 </div>
+            </div>
+            <div class="product">
+                <img src="images/img4.jpg" alt="umbrell" width="300" height="200">
+                <div class="product-details">
+                    <h2>Product 4:venon 10025 </h2>
+                    <p>price: $1 </p>
+                     <p>Description:believe in walls </p> 
+                </div>
+            </div>
+             <div class="product">
+                <img src="images/img5.jpg" alt="umbrell" width="300" height="200">
+                <div class="product-details">
+                     <h2>Product 5: Rasborne 21</h2>
+                     <p> price: $1 </p>
+                        <p>Description:believe in walls </p> 
+                 </div>
+             </div>
+             <div class="product">
+                <img src="images/img6.jpg" alt="umbrell" width="300" height="200">
+                <div class="product-details">
+                <h2>Product 5: voltage aigle</h2> 
+                <p>price: $1 </p>
+                <p>Description: believe in walls</p> 
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="fixed" > 
+            <div class="my-list-container">
+                <ul class="my-list">
+                    <li><a href="contact-us.html">Contact us</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="my-ol-container">         
+                <ol class="my-ol"> 
+                    <li>ALL RIGHTS RESERVED © UMBRELLA.</li>
+                    <li> UPDATED 2023</li>
+                </ol>
+            </div>
+    </div>
+    </footer>
+</body>
+
+</html>
+
+
 
