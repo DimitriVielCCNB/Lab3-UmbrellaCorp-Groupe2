@@ -19,4 +19,11 @@ voici la gamme de produits qu'ils planifient vendre dans la section para-militai
 - armes biologiques
 - etc
 pour plus de détails sur les produits offerts par Umbrella, voir le site inclus:
-https://residentevil.fandom.com/wiki/Umbrella_Corporation#Products
+https://residentevil.fandom.com/wiki/Umbrella_Corporation#Productss
+
+Liste des participants avec leur parties faites:
+Arnaud Kouassi: medical-equipment, home , Css.
+Cyrille Tiwa:  health foods, about us, Css.
+Aurore Tampono Sanama: computer-products, contact-us, Css.
+Miguel Ngakou: biological-weapons,fire-arms, Css.
+Suzie: cosmetic-products, chemical-products
