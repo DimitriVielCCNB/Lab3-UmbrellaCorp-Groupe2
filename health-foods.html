@@ -6,7 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images\logo.jpg" type="image/x-icon">
-    <title>home</title>
+    <title>health-foods</title>
+
+    <style>
+        /* Style pour le corps de la page */
+        body {
+            font-family: Arial, sans-serif; /* Police de caractères générale */
+            margin: 0; /* Réinitialisation de la marge par défaut du corps de la page */
+            padding: 0; /* Réinitialisation du rembourrage par défaut du corps de la page */
+            background-color: #f4f4f4; /* Couleur de fond générale */
+        }
+
+        /* Style pour la section principale de la page */
+        section {
+            max-width: 800px; /* Largeur maximale de la section */
+            margin: 20px auto; /* Marge extérieure et centrage horizontal de la section */
+            padding: 20px; /* Espace intérieur de la section */
+            background-color: #fff; /* Couleur de fond de la section */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour de la section */
+            display: grid; /* Utilisation du modèle de disposition en grille pour la section */
+            grid-template-columns: repeat(2, 1fr); /* Deux colonnes égales dans la grille */
+            grid-gap: 20px; /* Espace entre les éléments de la grille */
+        }
+
+        /* Style pour chaque produit dans la section */
+        .product {
+            border: 1px solid #ddd; /* Bordure du produit */
+            margin: 10px; /* Marge extérieure du produit */
+            padding: 10px; /* Espace intérieur du produit */
+            text-align: center; /* Alignement du texte au centre dans le produit */
+        }
+
+        /* Style pour les images de chaque produit */
+        .product img {
+            max-width: 100%; /* Assure que l'image du produit ne dépasse pas sa largeur naturelle */
+            height: auto; /* Permet à l'image de conserver ses proportions tout en ajustant sa largeur */
+        }    
+    </style>
+
 </head>
 
 <body>
@@ -51,34 +88,60 @@
         </nav>
     </header>       
 
-    <section id="home">
-        <h1>Welcome to UMBRELLA</h1>
-        <p>Umbrella was created in 1968, it is a giant multinational pharmaceutical corporation that produces many daily use goods.
-            It later extended its activities to IT, arms, aerospace, cosmetics, and many other sectors. 
-            It is the world's leading company in the medical and cosmetic sector, and its products are found in more than half of American homes.
-        </p>
+    <section>
+        <div class="product">
+            <img src="images/GREEN_&_RED_HERB_food.jpg" alt="food1">
+            <h2>Red & Green Herb</h2>
+            <p>Description:<br><br>Resident Evil-themed food was also added to the menu, with the vegetarian "Red & Green Herb".</p>
+            <p>Price : $29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images\BIOHAZARD_REVELATIONS_2_food.jpg" alt="food2">
+            <h2>BIOHAZARD REVELATIONS 2</h2>
+            <p>Description:<br><br>the meat dish, "BIOHAZARD REVELATIONS 2". The latter included a sweet tasting "eyeball" made from calpis and agar on top of the meat.</p>
+            <p>Price : $19,99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images\Health_Tablets.jpg" alt="food3">
+            <h2>Health Tablets</h2>
+            <p>Description:<br><br>Health Tablets are the main healing item in Resident Evil 6. They are made by condensing herbs into small, easy-to-swallow tablets.Each health tablet restores a single square of life for the user. Using a health tablet near a partner will restore their life by half a square.</p>
+            <p>Price : $19,99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="HAND_OF_REVENANT_food.jpg" alt="food4">
+            <h2>HAND_OF_REVENANT_food</h2>
+            <p>Description:<br><br>Resident Evil-themed food was also added to the menu the "Hand of Revenant".</p>
+            <p>Price : $29.99</p>
+            <button>Add to Cart</button>
+        </div>
+
     </section>
 
-    <section id="complexe">
-    <img class="responsive-image" src="images\Complexe.jpg" alt="OFFICE UMBRELLA">
-    </section>
+        <footer>
 
-    <footer>
-        <div class="fixed" > 
-            <div class="my-list-container">
-                <ul class="my-list">
-                    <li><a href="contact-us.html">Contact us</a></li>
-                    <li><a href="about-us.html">About us</a></li>
-                </ul>
+             <div class="fixed" > 
+                <div class="my-list-container">
+                    <ul class="my-list">
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="about-us.html">About us</a></li>
+                    </ul>
+                </div>
+                <div class="my-ol-container">         
+                    <ol class="my-ol"> 
+                        <li>ALL RIGHTS RESERVED © UMBRELLA.</li>
+                        <li> UPDATED 2023</li>
+                    </ol>
+                </div>
             </div>
-            <div class="my-ol-container">         
-                <ol class="my-ol"> 
-                    <li>ALL RIGHTS RESERVED © UMBRELLA.</li>
-                    <li> UPDATED 2023</li>
-                </ol>
-            </div>
-    </div>
-    </footer>
+        </footer>
+
 </body>
+
 
 </html>
