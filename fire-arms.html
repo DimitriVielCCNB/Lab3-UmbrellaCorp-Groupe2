@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>lab3 groupe2</title>
     <style>
     .image {
         text-align: center;
         border-radius: 5px yellow;
+        margin-top: 10px;
     }
     #principale {
         display: grid;
@@ -18,88 +20,86 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="header-container">
+
         <div class="logo">
-            <img src="images\logo.jpg" alt="Logo GlobeX"  width="100"  height="100">
-            <!-- Ajoutez ici le lien vers votre logo--> 
+            <a href="home.html">
+            <img src="images\logo.jpg" alt="LOGO UMBRELLA">
+            </a>
+        </div>
+
+        <div class="search-container">
+            <form action="/search" method="get">
+            <input type="text" placeholder="Search for a product here" name="search">
+            <button type="submit"><i class="fa fa-search"> Search </i></button>
+            </form>
+          
         </div>
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <!--<li><a href="home.html">HOME</a></li>-->
                 <li>
-                    <a href="#indoor">Indoor</a>
+                    <a>CONSUMER</a>
                     <ul class="sub-categories">
-                        <li><a href="living-room.html">Living Room</a></li>
-                        <li><a href="bedroom.html">Bedroom</a></li>
-                        <!-- Ajoutez autant de sous-catégories que nécessaire -->
+                        <li><a href="cosmetic-products.html">Cosmetic product</a></li>
+                        <li><a href="computer-products.html">Computer product</a></li>
+                        <li><a href="chemicals.html">Chemicals</a></li>
+                        <li><a href="health-foods.html">Health foods</a></li>
+                        <li><a href="medical-equipment.html">Medical equipment</a></li>
+
                     </ul>
                 </li>
                 <li>
-                    <a href="#outdoor">Outdoor</a>
+                    <a>PARAMILITARY</a>
                     <ul class="sub-categories">
-                        <li><a href="garden.html">Garden</a></li>
-                        <li><a href="patio.html">Patio</a></li>
-                        <!-- Ajoutez autant de sous-catégories que nécessaire -->
+                        <li><a href="biological-weapons.html">Biological weapons</a></li>
+                        <li><a href="fire-arms.html">Fire arms</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#sports">Sports</a>
-                    <ul class="sub-categories">
-                        <li><a href="football.html">Football</a></li>
-                        <li><a href="basketball.html">Basketball</a></li>
-                    </ul> 
-                </li> 
-                <li><a href="radioactive.html">Radioactive</a></li>
-                <li><a href="world_domination.html">World_domination</a></li>
-                <li><a href="commercial_properties.html">Commercial_properties</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="mailing_list.html">Mailing List</a></li>
-                <li><a href="about.html">about Us</a></li>
             </ul>
         </nav>
     </header>
         <div id="principale">
             <div class="image">
                 <img src="images/imag1.jpg" alt="simspsoms" width="400" height="200" >
-                <div class="desc" style="text-align: center;">50$<br/>jus bio bien radioactif  </div>
+                <div class="desc" style="text-align: center;">price:$800<br/>pour vos assaut </div>
             </div>
             <div class="image">
                 <img src="images/imag2.jpg" alt="simpsoms" width="400" height="200">
-                <div class="desc">price:$60<br/>enterrer avec precautions </div>
+                <div class="desc">price:$500<br/>tres facile a dissimuler </div>
             </div>
             <div class="image">
                 <img src="images/imag3.jpg" alt="simpsoms" width="400" height="200">
-                <div class="desc">price:$80<br/>poisson jaune avec de beaux yeux </div>
+                <div class="desc">price:$400<br/>goutter a la collection d'hiver</div>
             </div>
             <div class="image">
                 <img src="images/imag4.jpg" alt="simpsoms" width="400" height="200">
-                <div class="desc">price:$40<br/>appeler moi pour vos problemes radioactifs </div>
+                <div class="desc">price:$554<br/>collection d'automne </div>
             </div>
             <div class="image">
                 <img src="images/imag5.jpg" alt="simpsoms" width="400" height="200">
-                <div class="desc">price:$75 <br/>juste pour prendre soins de soi </div>
+                <div class="desc">price:$750 <br/>collection d'ete </div>
             </div>
             <div class="image">
                 <img src="images/imag6.jpg" alt="simpsoms" width="400" height="200">
-                <div class="desc">price:$75 <br/>a la conquete de l'espace </div> 
+                <div class="desc">price:$841<br/>pour un assault individuel </div> 
             </div>   
         </div>     
 </body>
 <footer>
-    <div class="fixed">
+    <div class="fixed" > 
         <div class="my-list-container">
             <ul class="my-list">
-                <li><a href="mailing_list.html">Receive your catalogs</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="about.html">Aout us</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li><a href="about-us.html">About us</a></li>
             </ul>
         </div>
-        <div class="my-ol-container">
-            <ol class="my-ol">
-                <li>ALL RIGHTS RESERVED &copy;GlobeX.</li>
-                <li>UPDATED 2023</li>
+        <div class="my-ol-container">         
+            <ol class="my-ol"> 
+                <li>ALL RIGHTS RESERVED © UMBRELLA.</li>
+                <li> UPDATED 2023</li>
             </ol>
         </div>
-    </div>
+</div>
 </footer>
 </html>
